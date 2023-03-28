@@ -33,12 +33,15 @@ After logging in with ftp we see three files:
 ![](Screenshots/Pasted%20image%2020230328232435.png)
 
 To_agentJ.txt :
+
 ![](Screenshots/Pasted%20image%2020230328234323.png)
 
 After trying to extract files from the image files:
+
 ![](Screenshots/Pasted%20image%2020230328233231.png)
 
-We see a new extracted directory
+We see a new extracted directory:
+
 ![](Screenshots/Pasted%20image%2020230328234138.png)
 
 ### 2.Zip file password
