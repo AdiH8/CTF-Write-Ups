@@ -25,9 +25,11 @@ Then i got redirected to this page:
 
 After brute forcing the ftp password with hydra we see:
 ![](Screenshots/Pasted%20image%2020230328232101.png)
+
 >Answer: crystal
 
 After logging in with ftp we see three files:
+
 ![](Screenshots/Pasted%20image%2020230328232435.png)
 
 To_agentJ.txt :
