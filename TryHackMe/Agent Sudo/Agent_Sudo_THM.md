@@ -66,4 +66,16 @@ Extracting the cute-alien.jpg with steghide we find a secret message:
 > Answer: james
 
 ### 5.SSH password
->Answer: hackerrules
+>Answer: hackerrules!
+
+## Capture the user flag 
+
+Trying to ssh to the server we got in:
+![](Screenshots/Pasted%20image%2020230329003548.png)
+
+## 1.What is the user flag? 
+>flag: b03d975e8c92a7c04146cfa7a5a313c7
+
+## 2.What is the incident of the photo called?
+
+>Answer: Roswell alien autopsy
