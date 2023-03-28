@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agent Sudo/README.md.md",
+                "file": "Agent Sudo/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agent Sudo/README.md.md",
+                "file": "Agent Sudo/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agent Sudo/README.md.md",
+                "file": "Agent Sudo/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agent Sudo/README.md.md"
+                "file": "Agent Sudo/README.md"
               }
             }
           }
@@ -158,7 +158,7 @@
     "Pasted image 20230328232824.png",
     "Agent Sudo/Screenshots/Pasted image 20230328233231.png",
     "Agent Sudo/Screenshots/Pasted image 20230328234138.png",
-    "Agent Sudo/README.md.md",
+    "Agent Sudo/README.md",
     "Agent Sudo/Screenshots/Pasted image 20230328232435.png",
     "Agent Sudo/Screenshots",
     "Agent Sudo"
