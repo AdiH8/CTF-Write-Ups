@@ -71,6 +71,7 @@ Extracting the cute-alien.jpg with steghide we find a secret message:
 ## Capture the user flag 
 
 Trying to ssh to the server we got in:
+
 ![](Screenshots/Pasted%20image%2020230329003548.png)
 
 ## 1.What is the user flag? 
