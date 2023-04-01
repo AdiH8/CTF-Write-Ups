@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc9dd763a4d4fdb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PicoCTF/General Skills/python wrangling/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PicoCTF/General Skills/strings it/README.md",
+                "file": "PicoCTF/General Skills/python wrangling/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PicoCTF/General Skills/strings it/README.md",
+                "file": "PicoCTF/General Skills/python wrangling/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PicoCTF/General Skills/strings it/README.md"
+                "file": "PicoCTF/General Skills/python wrangling/README.md"
               }
             }
           }
@@ -159,8 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3811c30a8d86a371",
+  "active": "b4b21388a5de2d4f",
   "lastOpenFiles": [
+    "PicoCTF/General Skills/python wrangling/flag.txt.en",
+    "PicoCTF/General Skills/python wrangling/pw.txt",
+    "PicoCTF/General Skills/python wrangling/ende.py",
+    "PicoCTF/General Skills/strings it/README.md",
+    "PicoCTF/General Skills/python wrangling/README.md",
+    "PicoCTF/General Skills/python wrangling",
     "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401221131.png",
     "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220910.png",
     "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220817.png",
@@ -168,7 +186,6 @@
     "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220556.png",
     "PicoCTF/General Skills/strings it/attachments",
     "PicoCTF/Forensics/hideme/README.md",
-    "PicoCTF/General Skills/strings it/README.md",
     "PicoCTF/General Skills/strings it",
     "PicoCTF/Forensics/hideme/flag.png",
     "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214224.png",
@@ -179,13 +196,9 @@
     "PicoCTF/Forensics/hideme/attachments",
     "PicoCTF/Cryptography/Mod 26/README.md",
     "PicoCTF/Forensics/hideme",
-    "PicoCTF/Cryptography/Mod 26/attachments/Pasted image 20230401203442.png",
     "PicoCTF/Cryptography/Mod 26/attachments",
     "PicoCTF/Cryptography/Mod 26.md",
     "PicoCTF/Cryptography/Mod 26",
-    "Untitled",
-    "README.md",
-    "PicoCTF/Binary Exploitation",
-    "PicoCTF/General Skills"
+    "README.md"
   ]
 }
