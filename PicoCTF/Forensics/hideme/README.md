@@ -9,7 +9,7 @@ using _binwalk_ comand, i see that there is a hidden zip file in the picture:
 
 ![](attachments/Pasted%20image%2020230401213902.png)
 
-i try to unzip it and i find folder _secret_ with another image:
+i try to unzip it and i find folder _secret_ with another image in it:
 
 ![](attachments/Pasted%20image%2020230401214122.png)
 
