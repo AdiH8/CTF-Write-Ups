@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3811c30a8d86a371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PicoCTF/General Skills/strings it/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PicoCTF/Forensics/hideme/README.md",
+                "file": "PicoCTF/General Skills/strings it/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PicoCTF/Forensics/hideme/README.md",
+                "file": "PicoCTF/General Skills/strings it/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PicoCTF/Forensics/hideme/README.md"
+                "file": "PicoCTF/General Skills/strings it/README.md"
               }
             }
           }
@@ -146,10 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d5bbaaf4b5d0f42",
+  "active": "3811c30a8d86a371",
   "lastOpenFiles": [
-    "PicoCTF/Forensics/hideme/flag.png",
+    "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401221131.png",
+    "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220910.png",
+    "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220817.png",
+    "PicoCTF/General Skills/strings it/strings",
+    "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220556.png",
+    "PicoCTF/General Skills/strings it/attachments",
     "PicoCTF/Forensics/hideme/README.md",
+    "PicoCTF/General Skills/strings it/README.md",
+    "PicoCTF/General Skills/strings it",
+    "PicoCTF/Forensics/hideme/flag.png",
     "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214224.png",
     "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214122.png",
     "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214035.png",
@@ -159,18 +180,12 @@
     "PicoCTF/Cryptography/Mod 26/README.md",
     "PicoCTF/Forensics/hideme",
     "PicoCTF/Cryptography/Mod 26/attachments/Pasted image 20230401203442.png",
-    "PicoCTF/Cryptography/Mod 26/attachments/Pasted image 20230401203131.png",
     "PicoCTF/Cryptography/Mod 26/attachments",
-    "PicoCTF/Cryptography/Mod 26/Pasted image 20230401203047.png",
     "PicoCTF/Cryptography/Mod 26.md",
     "PicoCTF/Cryptography/Mod 26",
     "Untitled",
-    "PicoCTF/Cryptography/Pasted image 20230401202809.png",
     "README.md",
     "PicoCTF/Binary Exploitation",
-    "PicoCTF/General Skills",
-    "PicoCTF/Forensics",
-    "PicoCTF/Reverse Engineering",
-    "PicoCTF/Cryptography"
+    "PicoCTF/General Skills"
   ]
 }
