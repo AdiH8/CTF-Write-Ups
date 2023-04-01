@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF/Cryptography/Mod 26/README.md",
+                "file": "PicoCTF/Forensics/hideme/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PicoCTF/Cryptography/Mod 26/README.md",
+                "file": "PicoCTF/Forensics/hideme/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PicoCTF/Cryptography/Mod 26/README.md",
+                "file": "PicoCTF/Forensics/hideme/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PicoCTF/Cryptography/Mod 26/README.md"
+                "file": "PicoCTF/Forensics/hideme/README.md"
               }
             }
           }
@@ -148,11 +148,20 @@
   },
   "active": "3d5bbaaf4b5d0f42",
   "lastOpenFiles": [
+    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214224.png",
+    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214122.png",
+    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214035.png",
+    "PicoCTF/Forensics/hideme/README.md",
+    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401213902.png",
+    "PicoCTF/Forensics/hideme/flag.png",
+    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401213633.png",
+    "PicoCTF/Forensics/hideme/attachments",
+    "PicoCTF/Cryptography/Mod 26/README.md",
+    "PicoCTF/Forensics/hideme",
     "PicoCTF/Cryptography/Mod 26/attachments/Pasted image 20230401203442.png",
     "PicoCTF/Cryptography/Mod 26/attachments/Pasted image 20230401203131.png",
     "PicoCTF/Cryptography/Mod 26/attachments",
     "PicoCTF/Cryptography/Mod 26/Pasted image 20230401203047.png",
-    "PicoCTF/Cryptography/Mod 26/README.md",
     "PicoCTF/Cryptography/Mod 26.md",
     "PicoCTF/Cryptography/Mod 26",
     "Untitled",
@@ -163,8 +172,6 @@
     "PicoCTF/General Skills",
     "PicoCTF/Forensics",
     "PicoCTF/Reverse Engineering",
-    "PicoCTF/Cryptography",
-    "PicoCTF/Web Exploitation",
-    "PicoCTF"
+    "PicoCTF/Cryptography"
   ]
 }
