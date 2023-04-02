@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "caa19c49123e2e3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PicoCTF/Binary Exploitation/buffer overflow 0/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3811c30a8d86a371",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PicoCTF/Forensics/Enhance!/README.md",
+                "file": "PicoCTF/Binary Exploitation/buffer overflow 0/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PicoCTF/Forensics/Enhance!/README.md",
+                "file": "PicoCTF/Binary Exploitation/buffer overflow 0/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PicoCTF/Forensics/Enhance!/README.md"
+                "file": "PicoCTF/Binary Exploitation/buffer overflow 0/README.md"
               }
             }
           }
@@ -170,12 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d5bbaaf4b5d0f42",
+  "active": "caa19c49123e2e3e",
   "lastOpenFiles": [
+    "PicoCTF/Binary Exploitation/buffer overflow 0/attachments/Pasted image 20230402210424.png",
+    "PicoCTF/Binary Exploitation/buffer overflow 0/vuln.c",
+    "PicoCTF/Binary Exploitation/buffer overflow 0/attachments/Pasted image 20230402205840.png",
+    "PicoCTF/Binary Exploitation/buffer overflow 0/attachments",
+    "PicoCTF/Forensics/Enhance!/README.md",
+    "PicoCTF/Binary Exploitation/buffer overflow 0/README.md",
+    "PicoCTF/Binary Exploitation/buffer overflow 0",
     "PicoCTF/Forensics/Enhance!/attachments/Pasted image 20230402195808.png",
     "PicoCTF/Forensics/Enhance!/attachments/Pasted image 20230402195502.png",
     "PicoCTF/Forensics/Enhance!/drawing.flag.svg",
-    "PicoCTF/Forensics/Enhance!/README.md",
     "().md",
     "PicoCTF/Forensics/Enhance!/attachments/Pasted image 20230402195039.png",
     "PicoCTF/Forensics/Enhance!/attachments",
@@ -194,12 +213,7 @@
     "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220817.png",
     "PicoCTF/General Skills/strings it/strings",
     "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220556.png",
-    "PicoCTF/General Skills/strings it/attachments",
-    "PicoCTF/General Skills/strings it",
     "PicoCTF/Forensics/hideme/flag.png",
-    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214224.png",
-    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214122.png",
-    "PicoCTF/Forensics/hideme/attachments",
     "PicoCTF/Cryptography/Mod 26/README.md",
     "PicoCTF/Cryptography/Mod 26.md"
   ]
