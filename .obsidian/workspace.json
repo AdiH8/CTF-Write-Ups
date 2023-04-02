@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF/Forensics/hideme/README.md",
+                "file": "PicoCTF/Forensics/Enhance!/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PicoCTF/General Skills/python wrangling/README.md",
+                "file": "PicoCTF/Forensics/Enhance!/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PicoCTF/General Skills/python wrangling/README.md",
+                "file": "PicoCTF/Forensics/Enhance!/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PicoCTF/General Skills/python wrangling/README.md"
+                "file": "PicoCTF/Forensics/Enhance!/README.md"
               }
             }
           }
@@ -171,8 +170,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4b21388a5de2d4f",
+  "active": "3d5bbaaf4b5d0f42",
   "lastOpenFiles": [
+    "PicoCTF/Forensics/Enhance!/attachments/Pasted image 20230402195808.png",
+    "PicoCTF/Forensics/Enhance!/attachments/Pasted image 20230402195502.png",
+    "PicoCTF/Forensics/Enhance!/drawing.flag.svg",
+    "PicoCTF/Forensics/Enhance!/README.md",
+    "().md",
+    "PicoCTF/Forensics/Enhance!/attachments/Pasted image 20230402195039.png",
+    "PicoCTF/Forensics/Enhance!/attachments",
+    "TryHackMe/Agent Sudo/README.md",
+    "PicoCTF/Forensics/Enhance!",
+    "README.md",
+    "PicoCTF/Forensics/hideme/README.md",
     "PicoCTF/General Skills/python wrangling/flag.txt.en",
     "PicoCTF/General Skills/python wrangling/pw.txt",
     "PicoCTF/General Skills/python wrangling/ende.py",
@@ -185,20 +195,12 @@
     "PicoCTF/General Skills/strings it/strings",
     "PicoCTF/General Skills/strings it/attachments/Pasted image 20230401220556.png",
     "PicoCTF/General Skills/strings it/attachments",
-    "PicoCTF/Forensics/hideme/README.md",
     "PicoCTF/General Skills/strings it",
     "PicoCTF/Forensics/hideme/flag.png",
     "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214224.png",
     "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214122.png",
-    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401214035.png",
-    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401213902.png",
-    "PicoCTF/Forensics/hideme/attachments/Pasted image 20230401213633.png",
     "PicoCTF/Forensics/hideme/attachments",
     "PicoCTF/Cryptography/Mod 26/README.md",
-    "PicoCTF/Forensics/hideme",
-    "PicoCTF/Cryptography/Mod 26/attachments",
-    "PicoCTF/Cryptography/Mod 26.md",
-    "PicoCTF/Cryptography/Mod 26",
-    "README.md"
+    "PicoCTF/Cryptography/Mod 26.md"
   ]
 }
