@@ -1,3 +1,9 @@
+Bandit has 35 levels (including level 0). The Bandit server is accessible via Secure Shell (SSH). The credentials are provided to you at level 0, and completion of each level provides the password to the following level. There can be multiple ways to access the password file, but you only need to correctly do one to move on.
+
+OverTheWire’s website: [https://overthewire.org/wargames/](https://overthewire.org/wargames/)
+
+OverTheWire — Bandit: [https://overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)
+
 # Bandit Level 0
 
 ## Level Goal
@@ -247,7 +253,7 @@ password for Bandit13:
 ## Level Goal
 
 The password for the next level is stored in **/etc/bandit_pass/bandit14 and can only be read by user bandit14**. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. **Note:** **localhost** is a hostname that refers to the machine you are working on
-![](sshkey.private)
+[SSH Key level 13](sshkey.private)
 ## Solution
 
 ```bash
@@ -310,10 +316,10 @@ The credentials for the next level can be retrieved by submitting the password o
 nmap -sV localhost -p 31000-32000
 ```
 
-password for Bandit17:
-![](sshkey17.private)
+password for Bandit17: [SSH Key lvl17](sshkey17.private)
 
 # Bandit Level 17 → Level 18
+
 
 ## Level Goal
 
