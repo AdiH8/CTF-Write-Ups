@@ -168,7 +168,7 @@ The password for the next level is stored in the file **data.txt** in one of t
 strings data.txt | grep ====
 ```
 
->password for Bandit10:
+password for Bandit10:
 >G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 
 # Bandit Level 10 → Level 11
@@ -183,7 +183,8 @@ The password for the next level is stored in the file **data.txt**, which conta
 cat data.txt | base64 --decode
 ```
 
->password for Bandit11:
+password for Bandit11:
+
 >6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 
 # Bandit Level 11 → Level 12
