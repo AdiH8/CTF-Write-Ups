@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "eff4a8eadb05b806",
@@ -161,6 +162,8 @@
   },
   "active": "c3b8369b5f1e9c44",
   "lastOpenFiles": [
+    "OverTheWire/Bandit/sshkey17.private",
+    "OverTheWire/Bandit/sshkey.private",
     "README.md",
     "OverTheWire/Bandit/README.md",
     "OverTheWire/Bandit",
@@ -189,7 +192,6 @@
     "().md",
     "PicoCTF/Forensics/Enhance!/attachments/Pasted image 20230402195039.png",
     "PicoCTF/Forensics/Enhance!/attachments",
-    "PicoCTF/Forensics/Enhance!",
     "PicoCTF/General Skills/python wrangling/README.md",
     "PicoCTF/Cryptography/Mod 26/README.md",
     "PicoCTF/Cryptography/Mod 26.md"

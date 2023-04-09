@@ -247,7 +247,7 @@ password for Bandit13:
 ## Level Goal
 
 The password for the next level is stored in **/etc/bandit_pass/bandit14 and can only be read by user bandit14**. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. **Note:** **localhost** is a hostname that refers to the machine you are working on
-
+![](sshkey.private)
 ## Solution
 
 ```bash
@@ -298,5 +298,89 @@ openssl s_client -connect localhost:30001
 password for Bandit16:
 >JQttfApK4SeyHwDlI9SXGR50qclOAil1
 
+# Bandit Level 16 → Level 17
+
+## Level Goal
+
+The credentials for the next level can be retrieved by submitting the password of the current level to **a port on localhost in the range 31000 to 32000**. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
+
+## Solution
+
+```bash
+nmap -sV localhost -p 31000-32000
+```
+
+password for Bandit17:
+![](sshkey17.private)
+
+# Bandit Level 17 → Level 18
+
+## Level Goal
+
+There are 2 files in the homedirectory: **passwords.old and passwords.new**. The password for the next level is in **passwords.new** and is the only line that has been changed between **passwords.old and passwords.new**
+
+**NOTE: if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19**
+
+## Solution
+
+```bash 
+diff passwords.old passwords.new
+```
+
+password for Bandit18:
+>hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+# Bandit Level 18 → Level 19
+
+## Level Goal
+
+The password for the next level is stored in a file **readme** in the homedirectory. Unfortunately, someone has modified **.bashrc** to log you out when you log in with SSH.
+
+## Solution
+
+Connevt to the bandit18:
+```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 -t "/bin/sh"
+```
+
+```bash
+cat readme
+```
+
+password for bandit19:
+>awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+
+# Bandit Level 19 → Level 20
+
+## Level Goal
+
+To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.
+
+## Solution
+
+```bash 
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+password for Bandit20:
+>VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+# Bandit Level 20 → Level 21
+
+## Level Goal
+
+There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
+
+**NOTE:** Try connecting to your own network daemon to see if it works as you think
+
+## Solution
+
+```bash
+echo "VxCazJaVykI6W36BkBU0mJTCM8rR95XT" | netcat -lp 1234 &
+
+./suconnect 1234
+```
 
 
+password for bandit21:
+>NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
