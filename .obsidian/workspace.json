@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a0ccce80cc12f0ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CryptoHack/Introduction to CryptoHack/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/Bounty Hacker/README.md",
+                "file": "CryptoHack/Introduction to CryptoHack/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TryHackMe/Bounty Hacker/README.md",
+                "file": "CryptoHack/Introduction to CryptoHack/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TryHackMe/Bounty Hacker/README.md"
+                "file": "CryptoHack/Introduction to CryptoHack/README.md"
               }
             }
           }
@@ -146,20 +159,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe8fb1ec721ee687",
+  "active": "a0ccce80cc12f0ee",
   "lastOpenFiles": [
-    "TryHackMe/Agent Sudo/README.md",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414185015.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414184948.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414184324.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414184304.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414183533.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414183516.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414182857.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414182828.png",
+    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414182209.png",
+    "CryptoHack/Introduction to CryptoHack/attachments",
     "TryHackMe/Bounty Hacker/README.md",
+    "CryptoHack/Introduction to CryptoHack/README.md",
+    "CryptoHack/Introduction to CryptoHack",
+    "CryptoHack",
+    "TryHackMe/Agent Sudo/README.md",
     "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414163900.png",
     "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414163756.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414163542.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414163030.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414162624.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414162310.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414162022.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414161835.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414161757.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414161152.png",
     "README.md",
     "TryHackMe/Bounty Hacker/attachments",
     "TryHackMe/Bounty Hacker",
@@ -168,7 +186,6 @@
     "OverTheWire/Bandit/sshkey17.private",
     "OverTheWire/Bandit/sshkey.private",
     "OverTheWire/Bandit",
-    "Untitled",
     "OverTheWire",
     "PicoCTF/Web Exploitation/where are the robots/README.md",
     "PicoCTF/Web Exploitation/where are the robots/attachments",
@@ -176,8 +193,6 @@
     "PicoCTF/Forensics/Enhance!/README.md",
     "PicoCTF/General Skills/strings it/README.md",
     "PicoCTF/Binary Exploitation/buffer overflow 0/README.md",
-    "PicoCTF/Web Exploitation/where are the robots",
-    "PicoCTF/Binary Exploitation/buffer overflow 0/vuln.c",
     "().md",
     "PicoCTF/General Skills/python wrangling/README.md",
     "PicoCTF/Cryptography/Mod 26/README.md",
