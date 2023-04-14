@@ -390,3 +390,48 @@ echo "VxCazJaVykI6W36BkBU0mJTCM8rR95XT" | netcat -lp 1234 &
 
 password for bandit21:
 >NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
+# Bandit Level 21 → Level 22
+
+## Level Goal
+
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
+
+## Solution
+
+```bash
+cat /etc/cron.d/cronjob_bandit22
+
+cat /usr/bin/cronjob_bandit22
+
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+
+password for bandit22:
+>WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+
+# Bandit Level 22 → Level 23
+
+## Level Goal
+
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
+
+**NOTE:** Looking at shell scripts written by other people is a very useful skill. The script for this level is intentionally made easy to read. If you are having problems understanding what it does, try executing it to see the debug information it prints.
+
+## Solution 
+
+```bash
+ls /etc/cron.d
+
+cat /etc/cron.d/cronjob_bandit23
+
+cat /usr/bin/cronjob_bandit23.sh
+
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+>8ca319486bfbbc3663ea0fbe81326349
+
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+```
+
+password for bandit23:
+>QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
