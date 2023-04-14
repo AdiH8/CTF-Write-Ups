@@ -1,27 +1,3 @@
-[Intro to CryptoHack](https://cryptohack.org/challenges/introduction/)
-
-## Finding flags
-
-Each challenge is designed to help introduce you to a new piece of cryptography. Solving a challenge will require you to find a "flag".  
-  
-These flags will usually be in the format `crypto{y0ur_f1rst_fl4g}`. The flag format helps you verify that you found the correct solution.  
-  
-Try submitting this flag into the form below to solve your first challenge.
-
-flag: 
->crypto{y0ur_f1rst_fl4g}
-
-## Great Snakes
-
-Run the attached Python script and it will output your flag.  
-  
-**Challenge files:**  
-  - [great_snakes.py](https://cryptohack.org/static/challenges/great_snakes_35381fca29d68d8f3f25c9fa0a9026fb.py)  
-  
-### Solution
-flag:
->crypto{z3n_0f_pyth0n}
-
 ## ASCII
 
 ASCII is a 7-bit encoding standard which allows the representation of text using the integers 0-127.  
@@ -112,3 +88,69 @@ for c in label:
 
 flag:
 >crypto{aloha}
+
+## XOR Properties
+
+Below is a series of outputs where three random keys have been XOR'd together and with the flag. Use the above properties to undo the encryption in the final line to obtain the flag.  
+  
+KEY1 = a6c8b6733c9b22de7bc0253266a3867df55acde8635e19c73313  
+KEY2 ^ KEY1 = 37dcb292030faa90d07eec17e3b1c6d8daf94c35d4c9191a5e1e  
+KEY2 ^ KEY3 = c1545756687e7573db23aa1c3452a098b71a7fbf0fddddde5fc1  
+FLAG ^ KEY1 ^ KEY3 ^ KEY2 = 04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf
+
+### Solution
+
+```python
+KEY1 = "a6c8b6733c9b22de7bc0253266a3867df55acde8635e19c73313"
+KEY2_xor_KEY1 = "37dcb292030faa90d07eec17e3b1c6d8daf94c35d4c9191a5e1e"
+KEY2_xor_KEY3 = "c1545756687e7573db23aa1c3452a098b71a7fbf0fddddde5fc1"
+FLAG_xor_KEYS = "04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf"
+
+KEY1 = int(KEY1, 16)
+KEY2_xor_KEY1 = int(KEY2_xor_KEY1, 16)
+KEY2_xor_KEY3 = int(KEY2_xor_KEY3, 16)
+FLAG_xor_KEYS = int(FLAG_xor_KEYS, 16)
+
+KEY2 = KEY1 ^ KEY2_xor_KEY1
+
+KEY3 = KEY2 ^ KEY2_xor_KEY3
+
+flag = KEY1 ^ KEY3 ^ KEY2 ^ FLAG_xor_KEYS
+
+flag_hex = hex(flag)[2:]
+
+flag_bytes = bytes.fromhex(flag_hex)
+
+flag_str = flag_bytes.decode("ASCII")
+
+print(flag_str)
+
+```
+
+flag:
+>crypto{x0r_i5_ass0c1at1v3}
+
+## Favourite byte
+
+I've hidden some data using XOR with a single byte, but that byte is a secret. Don't forget to decode from hex first.  
+  
+`73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d`
+
+### Solution
+
+```python
+
+data_hex = "73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d"
+
+data_bytes = bytes.fromhex(data_hex)
+
+for key in range(256):
+    decrypted_bytes = bytes([byte ^ key for byte in data_bytes])
+    
+    decrypted_str = decrypted_bytes.decode("ASCII")
+    if "crypto" in decrypted_str:   
+    	print(decrypted_str)
+```
+
+flag:
+>crypto{0x10_15_my_f4v0ur173_by7e}

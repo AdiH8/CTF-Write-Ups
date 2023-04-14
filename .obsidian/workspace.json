@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CryptoHack/Introduction to CryptoHack/README.md",
+                "file": "CryptoHack/General/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9886a274762622e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CryptoHack/General/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CryptoHack/Introduction to CryptoHack/README.md",
+                "file": "CryptoHack/General/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CryptoHack/Introduction to CryptoHack/README.md",
+                "file": "CryptoHack/General/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CryptoHack/Introduction to CryptoHack/README.md"
+                "file": "CryptoHack/General/README.md"
               }
             }
           }
@@ -159,8 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0ccce80cc12f0ee",
+  "active": "a9886a274762622e",
   "lastOpenFiles": [
+    "CryptoHack/Introduction/README.md",
+    "CryptoHack/General/README.md",
+    "CryptoHack/Introduction",
+    "README.md",
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414185015.png",
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414184948.png",
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414184324.png",
@@ -172,13 +188,10 @@
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414182209.png",
     "CryptoHack/Introduction to CryptoHack/attachments",
     "TryHackMe/Bounty Hacker/README.md",
-    "CryptoHack/Introduction to CryptoHack/README.md",
-    "CryptoHack/Introduction to CryptoHack",
+    "CryptoHack/General",
     "CryptoHack",
     "TryHackMe/Agent Sudo/README.md",
     "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414163900.png",
-    "TryHackMe/Bounty Hacker/attachments/Pasted image 20230414163756.png",
-    "README.md",
     "TryHackMe/Bounty Hacker/attachments",
     "TryHackMe/Bounty Hacker",
     "OverTheWire/Bandit/README.md",
@@ -188,7 +201,6 @@
     "OverTheWire/Bandit",
     "OverTheWire",
     "PicoCTF/Web Exploitation/where are the robots/README.md",
-    "PicoCTF/Web Exploitation/where are the robots/attachments",
     "PicoCTF/Forensics/hideme/README.md",
     "PicoCTF/Forensics/Enhance!/README.md",
     "PicoCTF/General Skills/strings it/README.md",
