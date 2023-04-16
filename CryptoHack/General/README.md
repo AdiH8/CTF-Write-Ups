@@ -1,3 +1,5 @@
+# Encoding
+
 ## ASCII
 
 ASCII is a 7-bit encoding standard which allows the representation of text using the integers 0-127.  
@@ -72,6 +74,79 @@ print(long_to_bytes(num))
 flag:
 >crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}
 
+## Encoding Challenge
+
+Can you pass all 100 levels to get the flag?  
+  
+The _13377.py_ file attached below is the source code for what's running on the server. The _pwntools_example.py_ file provides the start of a solution using the incredibly convenient pwntools library. which we recommend. If you'd prefer to use Python's in-built telnetlib, _telnetlib_example.py_ is also provided.  
+  
+For more information about connecting to interactive challenges, see the [FAQ](https://cryptohack.org/faq#netcat). Feel free to skip ahead to the cryptography if you aren't in the mood for a coding challenge!  
+  
+Connect at `nc socket.cryptohack.org 13377`
+
+```python
+from pwn import * # pip install pwntools
+import json
+from Crypto.Util.number import bytes_to_long, long_to_bytes
+import base64
+import codecs
+import random
+from binascii import unhexlify
+
+
+r = remote('socket.cryptohack.org', 13377, level = 'debug')
+
+def json_recv():
+    line = r.recvline()
+    return json.loads(line.decode())
+
+def json_send(hsh):
+    request = json.dumps(hsh).encode()
+    r.sendline(request)
+
+def list_to_string(s):
+    output = ""
+    return(output.join(s))
+
+for i in range(0,101):
+    received = json_recv()
+    if "flag" in received:
+        print("\n[*] FLAG: {}".format(received["flag"]))
+        break
+
+    print("\n[-] Cycle: {}".format(i))
+    print("[-] Received type: {}".format(received["type"]))
+    print("[-] Received encoded value: {}".format(received["encoded"]))
+
+    word = received["encoded"]
+    encoding = received["type"]
+
+    if encoding == "base64":
+        decoded = base64.b64decode(word).decode('utf8').replace("'", '"')
+    elif encoding == "hex":
+        decoded = (unhexlify(word)).decode('utf8').replace("'", '"')
+    elif encoding == "rot13":
+        decoded = codecs.decode(word, 'rot_13')
+    elif encoding == "bigint":
+        decoded = unhexlify(word.replace("0x", "")).decode('utf8').replace("'", '"')
+    elif encoding == "utf-8":
+        decoded = list_to_string([chr(b) for b in word])
+
+    print("[-] Decoded: {}".format(decoded))
+    print("[-] Decoded Type: {}".format(type(decoded)))
+
+    to_send = {
+        "decoded": decoded
+    }
+
+    json_send(to_send)
+```
+
+flag:
+>crypto{3nc0d3_d3c0d3_3nc0d3}
+
+
+# XOR
    
 ## XOR Starter
 
@@ -154,3 +229,87 @@ for key in range(256):
 
 flag:
 >crypto{0x10_15_my_f4v0ur173_by7e}
+
+## You either know, XOR you don't
+//To do
+
+## Lemur XOR
+
+I've hidden two cool images by XOR with the same secret key so you can't see them!  
+  
+This challenge requires performing a visual XOR between the RGB bytes of the two images - not an XOR of all the data bytes of the files.  
+  
+**Challenge files:**  
+  - [lemur.png](https://cryptohack.org/static/challenges/lemur_ed66878c338e662d3473f0d98eedbd0d.png)  
+  - [flag.png](https://cryptohack.org/static/challenges/flag_7ae18c704272532658c10b5faad06d74.png)
+
+### Solution
+
+```bash
+pip3 install opencv-python
+```
+
+```python
+import cv2
+
+img1 = cv2.imread('image1.png')
+img2 = cv2.imread('image2.png')
+
+# Make sure they have the same dimensions
+img1 = cv2.resize(img1, (img2.shape[1], img2.shape[0]))
+
+# XOR the two images on each color channel
+result_b = cv2.bitwise_xor(img1[:,:,0], img2[:,:,0])
+result_g = cv2.bitwise_xor(img1[:,:,1], img2[:,:,1])
+result_r = cv2.bitwise_xor(img1[:,:,2], img2[:,:,2])
+
+# Merge the results into a single color image
+result = cv2.merge((result_b, result_g, result_r))
+
+# Write the result to a new image file
+cv2.imwrite('result.png', result)
+
+```
+
+![](attachments/Pasted%20image%2020230416145203.png)
+
+flag:
+>crypto{X0Rly_n0t!}
+
+# Mathematics
+
+## Greatest Common Divisor
+
+The Greatest Common Divisor (GCD), sometimes known as the highest common factor, is the largest number which divides two positive integers (a,b).  
+  
+For `a = 12, b = 8` we can calculate the divisors of a: `{1,2,3,4,6,12}` and the divisors of b: `{1,2,4,8}`. Comparing these two, we see that `gcd(a,b) = 4`.  
+  
+Now imagine we take `a = 11, b = 17`. Both `a` and `b` are prime numbers. As a prime number has only itself and `1` as divisors, `gcd(a,b) = 1`.  
+  
+We say that for any two integers `a,b`, if `gcd(a,b) = 1` then `a` and `b` are coprime integers.  
+  
+If `a` and `b` are prime, they are also coprime. If `a` is prime and `b < a` then `a` and `b` are coprime.  
+  
+Think about the case for `a` prime and `b > a`, why are these not necessarily coprime?  
+  
+There are many tools to calculate the GCD of two integers, but for this task we recommend looking up [Euclid's Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).  
+  
+Try coding it up; it's only a couple of lines. Use `a = 12, b = 8` to test it.  
+  
+Now calculate `gcd(a,b)` for `a = 66528, b = 52920` and enter it below.
+
+### Solution
+
+```python
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+a = 66528 
+b = 52920
+print(gcd(a,b))
+```
+
+Answer:
+>1512
