@@ -313,3 +313,64 @@ print(gcd(a,b))
 
 Answer:
 >1512
+
+## Extended GCD
+
+Let `a` and `b` be positive integers.  
+  
+The extended Euclidean algorithm is an efficient way to find integers `u,v` such that  
+  
+`a * u + b * v = gcd(a,b)`  
+  
+Using the two primes `p = 26513, q = 32321`, find the integers `u,v` such that  
+  
+`p * u + q * v = gcd(p,q)`  
+  
+Enter whichever of `u` and `v` is the lower number as the flag.
+
+### Solution 
+
+```python
+def egcd(a, b):
+    if b == 0:
+        return a, 1, 0
+    else:
+        gcd, u, v = egcd(b, a % b)
+        return gcd, v, u - (a // b) * v
+
+p = 26513
+q = 32321
+gcd, u, v = egcd(p, q)
+
+print(min(u, v))
+
+```
+
+Answer:
+>-8404
+
+## Modular Arithmetic 1
+
+Formally, "calculating time" is described by the theory of congruences. We say that two integers are congruent modulo m if `a ≡ b mod m`.  
+  
+Another way of saying this, is that when we divide the integer `a` by `m`, the remainder is `b`. This tells you that if m divides a (this can be written as `m | a`) then `a ≡ 0 mod m`.  
+  
+Calculate the following integers:  
+  
+11 ≡ x mod 6  
+8146798528947 ≡ y mod 17  
+  
+The solution is the smaller of the two integers.
+
+### Solution
+
+```python
+x = 11 % 6
+y = 8146798528947 % 17
+
+print(min(x, y))
+```
+
+Answer:
+>4
+
