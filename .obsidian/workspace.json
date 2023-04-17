@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c7a51c543f756d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CryptoHack/RSA/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "eff4a8eadb05b806",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CryptoHack/General/README.md",
+                "file": "CryptoHack/RSA/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CryptoHack/General/README.md",
+                "file": "CryptoHack/RSA/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CryptoHack/General/README.md"
+                "file": "CryptoHack/RSA/README.md"
               }
             }
           }
@@ -146,14 +160,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "656bb2fdfa6faf62",
+  "active": "6c7a51c543f756d4",
   "lastOpenFiles": [
+    "CryptoHack/General/README.md",
+    "CryptoHack/RSA/README.md",
+    "CryptoHack/RSA",
     "CryptoHack/General/attachments/Pasted image 20230417162248.png",
     "OverTheWire/Bandit/README.md",
     "README.md",
     "PicoCTF/Cryptography/Mod 26/README.md",
     "PicoCTF/Binary Exploitation/buffer overflow 0/README.md",
-    "CryptoHack/General/README.md",
     "TryHackMe/Bounty Hacker/README.md",
     "CryptoHack/General/attachments/Pasted image 20230416145203.png",
     "CryptoHack/General/attachments",
@@ -167,7 +183,6 @@
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414183516.png",
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414182857.png",
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414182828.png",
-    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414182209.png",
     "CryptoHack/Introduction to CryptoHack/attachments",
     "CryptoHack/General",
     "CryptoHack",
@@ -177,7 +192,6 @@
     "OverTheWire/README.md",
     "OverTheWire/Bandit/sshkey17.private",
     "OverTheWire/Bandit/sshkey.private",
-    "OverTheWire/Bandit",
     "PicoCTF/Web Exploitation/where are the robots/README.md",
     "PicoCTF/Forensics/hideme/README.md",
     "PicoCTF/Forensics/Enhance!/README.md",
