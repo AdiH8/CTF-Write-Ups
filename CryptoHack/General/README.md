@@ -246,7 +246,7 @@ This challenge requires performing a visual XOR between the RGB bytes of the two
 ### Solution
 
 ```bash
-pip3 install opencv-python
+pip3 install opencv-python 
 ```
 
 ```python
@@ -373,4 +373,47 @@ print(min(x, y))
 
 Answer:
 >4
+
+## Modular Arithmetic 2
+
+Lets say we pick `p = 17`. Calculate `3^17 mod 17`. Now do the same but with `5^17 mod 17`.  
+  
+What would you expect to get for `7^16 mod 17`? Try calculating that.  
+  
+This interesting fact is known as Fermat's little theorem. We'll be needing this (and its generalisations) when we look at RSA cryptography.  
+  
+Now take the prime `p = 65537`. Calculate `273246787654^65536 mod 65537`.
+
+### Solution 
+
+![](attachments/Pasted%20image%2020230417162248.png)
+
+273246787654^(65537-1) = 1 (mod 65536 )
+
+So the answer is:
+>1
+
+## Modular inverting
+
+As we've seen, we can work within a finite field `Fp`, adding and multiplying elements, and always obtain another element of the field.  
+  
+For all elements `g` in the field, there exists a unique integer `d` such that `g * d ≡ 1 mod p`.  
+  
+This is the multiplicative inverse of `g`.  
+  
+**Example**: `7 * 8 = 56 ≡ 1 mod 11`  
+  
+What is the inverse element: `3 * d ≡ 1 mod 13`?
+
+### Solution
+
+```python
+for i in range (100):
+	if (3*i)%13==1:
+		print(i)
+```
+
+Answer: `9`
+
+
 
