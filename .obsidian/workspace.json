@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe/Encryption - Crypto 101/README.md",
+                "file": "OverTheWire/Bandit/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/Encryption - Crypto 101/README.md",
+                "file": "OverTheWire/Bandit/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TryHackMe/Encryption - Crypto 101/README.md",
+                "file": "OverTheWire/Bandit/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TryHackMe/Encryption - Crypto 101/README.md"
+                "file": "OverTheWire/Bandit/README.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "1b0ed40f2d23a1c9",
   "lastOpenFiles": [
+    "TryHackMe/Encryption - Crypto 101/README.md",
     "TryHackMe/Encryption - Crypto 101/attachments/Pasted image 20230420162255.png",
     "TryHackMe/Encryption - Crypto 101/attachments/Pasted image 20230420160633.png",
     "TryHackMe/Encryption - Crypto 101/attachments/Pasted image 20230420160014.png",
@@ -156,7 +157,6 @@
     "TryHackMe/Encryption - Crypto 101/attachments/Pasted image 20230420142753.png",
     "TryHackMe/Encryption - Crypto 101/attachments",
     "README.md",
-    "TryHackMe/Encryption - Crypto 101/README.md",
     "TryHackMe/Encryption - Crypto 101",
     "TryHackMe/Agent Sudo/README.md",
     "TryHackMe/Bounty Hacker/README.md",
@@ -179,7 +179,6 @@
     "CryptoHack/Introduction/README.md",
     "CryptoHack/Introduction",
     "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414185015.png",
-    "CryptoHack/Introduction to CryptoHack/attachments/Pasted image 20230414184948.png",
     "CryptoHack/Introduction to CryptoHack/attachments",
     "CryptoHack/General",
     "CryptoHack",
